@@ -83,34 +83,6 @@ python deep_sort_app.py \
   --display False
 ```
 
-Available perturbation levels are:
-
-| Level | Position range | Scale range | Injection probability |
-|---|---:|---:|---:|
-| `none` | 0 px | 0% | 0 |
-| `medium` | ±15 px | ±25% | 0.3 |
-| `high` | ±25 px | ±40% | 0.5 |
-
-The perturbation module does not set a fixed random seed.
-For an exact diagnostic rerun of the manuscript perturbation sequence, pass
-`--noise_seed 2025`. If this option is omitted, the seed remains unfixed.
-
-## Paper Configuration
-
-The default GSTAKF parameters are:
-
-| Parameter | Value |
-|---|---:|
-| `rho` | 0.82 |
-| `beta` | 1.0 |
-| `lambda_center` | 0.0 |
-| `conf_center` | 0.5 |
-| `sigma_lambda` | 0.5 |
-| `sigma_conf` | 0.3 |
-| `sigmoid_k` | 8.0 |
-| `sigmoid_x0` | 0.75 |
-
-The same values are stored in `configs/paper_parameters.json`.
 
 ## Batch Experiment
 
