@@ -1,0 +1,29 @@
+{
+  "gstakf": {
+    "rho": 0.82,
+    "beta": 1.0,
+    "lambda_center": 0.0,
+    "conf_center": 0.5,
+    "sigma_lambda": 0.5,
+    "sigma_conf": 0.3,
+    "sigmoid_k": 8.0,
+    "sigmoid_x0": 0.75
+  },
+  "perturbation": {
+    "none": {
+      "sigma_uv": 0.0,
+      "sigma_s": 0.0,
+      "probability": 0.0
+    },
+    "medium": {
+      "sigma_uv": 15.0,
+      "sigma_s": 0.25,
+      "probability": 0.3
+    },
+    "high": {
+      "sigma_uv": 25.0,
+      "sigma_s": 0.4,
+      "probability": 0.5
+    }
+  }
+}
