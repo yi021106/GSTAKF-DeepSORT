@@ -123,8 +123,6 @@ Please cite the original DeepSORT paper and the GSTAKF paper when using this rep
              Junyang Wang and Liming Bai},
   title   = {An improved GSTAKF-based pedestrian tracking method for abrupt state estimation},
   journal = {Journal of King Saud University Computer and Information Sciences},
-  volume  = {38},
-  number  = {888},
   year    = {2026},
   doi     = {10.1007/s44443-026-01309-x},
   url     = {https://doi.org/10.1007/s44443-026-01309-x}
